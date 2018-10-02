@@ -1,1 +1,13 @@
 git init  (inicia el repositorio)
+git status (muestra el estado, que falta comitear y esas cosas)
+git add demo.txt (agrega el archivo para que lo vea git, pero no lo graba)
+git reset demo.txt (lo saca si te equivocas ya que no se hizo el commit aun)
+git commit -am "Descripcion del commit" (graba los cambios, por ejemplo los archivos que le hicimos el add y le pone la descripcion al commit)
+
+branches
+el master es el default, para crear un nuevo branch
+
+git branch develop (por ejemplo este se llama develop)
+git branch  (muestra los branchs disponibles y cual esta activo)
+git checkout develop (cambia el branch activo a develop)
+
