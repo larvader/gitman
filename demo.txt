@@ -11,3 +11,8 @@ git branch develop (por ejemplo este se llama develop)
 git branch  (muestra los branchs disponibles y cual esta activo)
 git checkout develop (cambia el branch activo a develop)
 
+server remoto
+git remote add origin https://github.com/YOU/REPONAME.git (la palabra origin es un label de la url, para despues usarla en el push por ejemplo)
+
+git push origin master (mando al remoto los cambios del master local, origin es el server remoto en github como se define en el paso anterior)
+
