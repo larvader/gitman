@@ -17,5 +17,11 @@ git remote add origin https://github.com/YOU/REPONAME.git (la palabra origin es 
 git push origin master (mando al remoto los cambios del master local, origin es el server remoto en github como se define en el paso anterior)
 
 
+hacer el merge
+cambiar al repositorio principal (master)
+git checkout master
+git merge develop (va a hacer el merge con lo que hay en el repo develop)
+
+
 Fuente del articulo:
 https://flaviocopes.com/git/
