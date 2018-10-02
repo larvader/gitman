@@ -16,3 +16,6 @@ git remote add origin https://github.com/YOU/REPONAME.git (la palabra origin es 
 
 git push origin master (mando al remoto los cambios del master local, origin es el server remoto en github como se define en el paso anterior)
 
+
+Fuente del articulo:
+https://flaviocopes.com/git/
